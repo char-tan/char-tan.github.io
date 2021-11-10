@@ -1,0 +1,92 @@
+
+html {
+	overflow-y: scroll; 
+}
+
+body{
+	font-family: 'Georgia', 'serif';
+}
+
+/* headshot image */
+.headshot {
+	position: relative;
+	width: 200px;
+	left: 50%; 
+	top:50px;
+	margin-left: -100px;
+}
+
+.headshot img {
+	border-radius: 50%;
+	width: 200px;
+}
+
+/* name header */
+.header {
+	margin-top: 55px;
+	font-size: 42px;
+}
+
+.header h1 {
+	font-weight: bold;
+	font-size: 42px;
+	text-align: center;
+}
+
+/* navigation bar */
+.nav {
+	position: relative;
+	width:405px;
+	left:50%;
+	margin-top: 8px;
+	margin-left: -202px;
+	list-style:none;
+}
+
+.nav .button {
+	border: none;
+	height: 45px;
+	width: 135px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	transition-duration: 0.5s;
+
+	cursor: pointer;
+	background-color: white;
+	color: black;
+}
+
+.nav .button:hover {
+	background-color: #99bbff;
+	color: white;
+}
+
+/* content body */
+.content {
+	position: relative;
+	width: 700px;
+	left: 50%;
+	margin-top: 30px;
+	margin-left: -350px;
+}
+
+.content h2{
+	font-weight: bold;
+}
+
+.content h4{
+	font-weight: bold;
+}
+
+.content p {
+	margin-top: 30px;
+}
+
+.content hr {
+	border: none;
+	margin-top: 30px;
+	height: 5px;
+	border-radius: 5px;
+	background-color: #333; /* Modern Browsers */
+}
